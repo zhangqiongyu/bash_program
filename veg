@@ -1,0 +1,12 @@
+#!/bin/bash
+veg1=carrots
+veg2=potatoes
+
+if [[ "$veg1" < "$veg2" ]]
+then
+	echo "hehe $veg1 precede $veg2"
+	echo "lalala"
+else
+	echo "what?"
+fi
+

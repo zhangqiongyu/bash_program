@@ -1,0 +1,9 @@
+#!/bin/bash
+let hello=8
+echo $hello
+echo "\$hello (null value) = $hello"
+echo "$hello"
+b='ls -l'
+echo 
+echo "$a"
+exit 0
